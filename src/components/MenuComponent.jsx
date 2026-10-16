@@ -16,6 +16,9 @@ export default class MenuComponent extends Component {
                             <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
+                            <NavLink className="nav-link active" aria-current="page" to="/hospitales">Hospitales</NavLink>
+                        </li>
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/createdepartamento">Create Departamento</NavLink>
                         </li>
                         <li className="nav-item dropdown">

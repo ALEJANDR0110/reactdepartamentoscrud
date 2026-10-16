@@ -21,6 +21,7 @@ export default class HomeComponent extends Component {
             })
         })
     }
+    
     deleteDepartamento = (depto) => {
         this.setState({
             deleteDepto: depto
